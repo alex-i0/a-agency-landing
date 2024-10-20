@@ -78,7 +78,7 @@ function BentoSection() {
     <Container>
       <Subheading>Sales</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
+      Next-Level Customer Engagement.
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
@@ -138,7 +138,7 @@ function DarkBentoSection() {
       <Container>
         <Subheading dark>Outreach</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Customer outreach has never been easier.
+        Solutions that fit into your workflows.
         </Heading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">

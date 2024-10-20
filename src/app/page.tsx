@@ -44,8 +44,7 @@ function Hero() {
           that do real work.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Reframe helps you sell more by revealing sensitive information about
-            your customers.
+          Streamline mundane and costly processes with customized AI automation solutions tailored to your needs.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="https://calendly.com/skupin-franciszek/reframe-ai">Get started</Button>

@@ -87,7 +87,7 @@ function BentoSection() {
           title="Talk, Don’t Type"
           description="Our AI voicebot brings a human-like touch to every interaction. Whether it's answering customer queries or scheduling appointments, it listens, understands, and responds naturally—just like a real person would."
           graphic={
-            <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
+            <div className="h-80 bg-[url(/screenshots/profile1.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
           }
           fade={['bottom']}
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
@@ -97,7 +97,7 @@ function BentoSection() {
           title="Plug Into Your Favorite Platforms"
           description="Seamlessly connect with Slack, Zoom, and more. Our voicebot is built to integrate into your current systems with zero hassle, allowing you to elevate your customer service with minimal setup time."
           graphic={
-            <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
+            <LogoCluster />
           }
           fade={['bottom']}
           className="lg:col-span-3 lg:rounded-tr-4xl"
@@ -117,14 +117,14 @@ function BentoSection() {
           eyebrow="Global Reach"
           title="Speak Any Language, Serve Any Market"
           description="Expand your reach effortlessly. Our AI voicebot is multilingual, enabling businesses to offer the same seamless, natural conversations to customers across different countries and languages."
-          graphic={<LogoCluster />}
+          graphic={<Map />}
           className="lg:col-span-2"
         />
         <BentoCard
           eyebrow="Always On"
           title="24/7 Support, No Breaks Needed"
           description="Never miss a customer inquiry. With our voicebot, your business stays open around the clock, providing consistent, reliable support whenever it’s needed—day or night."
-          graphic={<Map />}
+          graphic={<div className="absolute inset-0 bg-[url(/screenshots/competitors1.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
       </div>
@@ -172,9 +172,9 @@ function DarkBentoSection() {
           />
           <BentoCard
             dark
-            eyebrow="Global Engagement"
-  title="Multilingual, Multi-Market"
-  description="Serve a global audience with ease. Our AI chatbot supports multiple languages, allowing you to break language barriers and deliver great customer experiences no matter where your users are."
+            eyebrow="Interactive"
+  title="Customized Interaction"
+  description="Enhance user engagement with ease. Our AI chatbot supports custom components within the chat, offering tailored interactions and functional features that streamline communication and provide a seamless experience for your users."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
